@@ -3,6 +3,10 @@
   * Secondary Colour: indigo
 */
 
+body {
+  background: black;
+}
+
 h1 {
   Color: indigo;
   font-family: 'Cinzel', serif;
