@@ -1,6 +1,7 @@
 /* Style Guide
-  * Primary Colour: gray
-  * Secondary Colour: indigo
+  * Primary Colour: Black
+  * Secondary Colour: Grey
+  * Third Color: Lavender
 */
 
 body {
@@ -8,8 +9,8 @@ body {
 }
 
 h1 {
-  Color: indigo;
-  font-family: 'Cinzel', serif;
+  Color: Lavender;
+  font-family: 'Baskervville', serif;
   font-size: 50px;
   letter-spacing: 3px;
    text-align: center;
@@ -20,7 +21,8 @@ p {
 }
 
 /* Typography
-  * Primary Font: Cinzel
+  * Primary Font: Baskerville
+  * Secondary Font: Roboto-Condensed
 */
 
 img {
