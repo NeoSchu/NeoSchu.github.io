@@ -1,6 +1,9 @@
 # NeoSchu.github.io
 neo-schu.site
 
+## Bio
+Smol
+
 ## Style Tile
 ### Colours
 * Black
