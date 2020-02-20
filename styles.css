@@ -4,6 +4,8 @@
   * Third Color: Lavender
 */
 
+/* CSS Variables */
+
 body {
   background: black;
 }
@@ -13,7 +15,7 @@ h1 {
   font-family: 'Baskervville', serif;
   font-size: 50px;
   letter-spacing: 3px;
-   text-align: center;
+  text-align: center;
 }
 
 p {
