@@ -8,7 +8,7 @@ Smol
 ### Colours
 * Black
 * Grey
-* Lavender
+* rgb(211, 187, 243)
 
 
 ### Typography
