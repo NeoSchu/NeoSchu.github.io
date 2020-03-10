@@ -102,7 +102,7 @@ img {
 	transform: ease-out;
 }
 
-img:hover {
+#portfolio:hover {
 	transform: scale(1.5);
 	position: relative;
 	transition: transform .5s;
