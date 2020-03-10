@@ -87,8 +87,8 @@ div {
 	grid-gap: 2em;
 	padding: 1em;
 	position: relative;
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 5em;
+	margin-right: 5em;
 	
 }
 
@@ -113,7 +113,8 @@ form {
 	font-family: 'Baskervville', serif;
 	font-size: 1.25em;
 	Color: rgb(211, 187, 243);
-	text-align: center;
+  text-align: center;
+  padding-top: 10em;
 }
 
 textarea {
