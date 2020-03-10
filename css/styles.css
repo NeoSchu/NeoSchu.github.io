@@ -83,13 +83,14 @@ p {
 
 div {
 	display: grid;
-	grid-template-columns: .4fr .4fr .4fr;
+	grid-template-columns: .2fr .2fr .2fr .2fr;
 	grid-gap: 2em;
 	padding: 1em;
 	position: relative;
 	margin-left: 5em;
 	margin-right: 5em;
-	
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -98,15 +99,28 @@ img {
 	padding: 3px;
 	border: 5px rgb(211, 187, 243) solid;
 	margin: 0;
-	transition: transform .25s;
-	transform: ease-out;
 }
 
-#portfolio:hover {
-	transform: scale(1.5);
-	position: relative;
-	transition: transform .5s;
-	transform: ease-out .25s;
+.overlay {
+	transform: scale(0);
+	transition: transform .25s;
+}
+
+
+/* last frame */
+.overlay:target {
+	transform: scale(2);
+	position: absolute;
+	z-index: 1;
+	width: 90vw;
+	height: 90vh;
+  display: flex;
+	position: fixed;
+	margin: 2em;
+	top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 	flex-direction: column;
 }
 
 form {
