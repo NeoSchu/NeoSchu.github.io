@@ -112,8 +112,8 @@ img {
 	transform: scale(2);
 	position: absolute;
 	z-index: 1;
-	width: 90%;
-	height: 90%;
+	width: 60vw;
+	height: 90vh;
   display: flex;
 	position: fixed;
 	margin: 2em;
