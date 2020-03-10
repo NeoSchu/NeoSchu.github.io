@@ -107,20 +107,18 @@ img {
 }
 
 .overlay:target {
-	transform: scale(2);
-	position: absolute;
-	z-index: 1;
-	width: 50vw;
-	height: 80vh;
-  display: flex;
+	transform: scale(.75);
 	position: fixed;
-	justify-content: center;
-	margin: 2em;
-	top: 50%;
-  left: 50%;
-	bottom: 50%;
-  transform: translate(-50%, -50%);
- 	flex-direction: column;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 90vw;
+	height: 90vh;
+  display: flex;
+	margin-top: 1em;
+  justify-content: center;
+  align-items: center;
+	flex-direction: column;
 }
 
 form {
