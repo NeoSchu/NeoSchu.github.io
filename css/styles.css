@@ -85,7 +85,7 @@ a:link {
 
 #bio {
   color: gray;
-  text-align: justify;
+  text-align: left;
   font-size: 1em;
   max-width: 50%;
   background: rgb(211, 187, 243);
@@ -99,18 +99,20 @@ a:link {
   align-self: center;
 }
 
-#ul {
-  color: black;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(211, 187, 243);
+  color: grey;
   text-align: center;
   font-size: .75em;
-  width: 95vw;
-  background: rgb(211, 187, 243);
-  padding: .5em;
+  height: 1.5em;
+  padding: 5px;
+  margin: 0;
   display: grid;
-  position: relative;
-  bottom: -70vh;
 }
-
 
 #paragraph {
   color: gray;
