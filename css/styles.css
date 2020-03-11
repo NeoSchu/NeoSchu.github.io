@@ -25,6 +25,19 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  Color: rgb(211, 187, 243);
+  font-family: 'Baskervville', serif;
+  font-size: 2em;
+  letter-spacing: 3px;
+  text-align: left;
+  display: grid;
+  position: absolute;
+  top: 80%;
+  margin: 10px;
+  margin-left: 20px;
+}
+
 /* Typography
   * Primary Font: Baskerville
   * Secondary Font: Roboto-Condensed
@@ -32,13 +45,15 @@ h1 {
 
 .neo {
   width: 40%;
-  max-inline-size: 500px;
+  max-inline-size: 300px;
   border: 5px rgb(211, 187, 243) solid;
   display: grid;
   position: absolute;
   top: 100%;
   right: 0%;
+  margin-right: 20px;
   padding: 0;
+  margin: 10px;
 }
 
 nav {
@@ -72,25 +87,58 @@ a:link {
   color: gray;
   text-align: justify;
   font-size: 1em;
-  width: 50%;
+  max-width: 50%;
   background: rgb(211, 187, 243);
   padding: 1em;
   display: grid;
-  margin: 0;
+  right: 45%;
+  margin: 10px;
+  margin-left: 20px;
   position: absolute;
   top: 100%;
+  align-self: center;
+}
+
+#ul {
+  color: black;
+  text-align: center;
+  font-size: .75em;
+  width: 95vw;
+  background: rgb(211, 187, 243);
+  padding: .5em;
+  display: grid;
+  position: relative;
+  bottom: -70vh;
+}
+
+
+#paragraph {
+  color: gray;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+  display: grid;
+  margin: 0;
+  position: relative;
+  align-items: center;
+}
+
+.error {
+  position: relative;
+  align-items: center;
+  width: 100%;
 }
 
 div {
 	display: grid;
-	grid-template-columns: .2fr .2fr .2fr;
-	grid-gap: 2em;
-	padding: 1em;
+	grid-template-columns: .2fr .2fr .2fr .2fr .2fr;
+	grid-gap: 30px;
+	padding: 10px;
 	position: relative;
 	margin-left: 5em;
-	margin-right: 5em;
+	margin-right: 1em;
   justify-content: center;
-  align-items: left;
+  align-items: center;
 }
 
 img {
@@ -100,6 +148,7 @@ img {
 	border: 5px rgb(211, 187, 243) solid;
   margin: 0;
 }
+
 
 .overlay {
 	transform: scale(0);
@@ -155,10 +204,10 @@ button:hover {
 	background: rgb(211, 187, 243);
 	color: black;
 	border-radius: 35%;
-	border: 2px rgb(211, 187, 243);
+	border: 10px rgb(211, 187, 243);
 	font-size: 1em;
 	font-family: 'Baskervville', serif;
-	
+	transition: background .5s;
 }
 
 button {
